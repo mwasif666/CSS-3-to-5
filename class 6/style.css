@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(0, 41, 45);
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+.login{
+    position: relative;
+    top: 230px;
+}
+
+.fa-user-circle-o{
+    font-size: 50px;
+    position: relative;
+    left: 45px;
+    top: 12px;
+    border-radius: 50%;
+    color:white ;
+    background:  rgba(71, 100, 104);
+    border-color: white;
+    
+}
+input{
+    border: none;
+    background: rgba(71, 100, 104);
+    height: 40px;
+    border-radius: 50px;
+    width: 300px;
+    outline: none;
+    
+    
+}
+::placeholder{
+    color: black;
+    position: relative;
+    left: 50px;
+}
+.fa-unlock-alt{
+  font-size: 40px;
+    position: relative;
+    top: 7px;
+    border-radius: 50%;
+    color:rgba(71, 100, 104);
+    border-color: white;
+}
+.lock1{
+    display: flex;
+
+}
+.lock{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    left: 45px;
+}
+.forInput{
+  position: relative;
+  top: 50px;
+}
