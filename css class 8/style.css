@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(213, 212, 212);
+}
+
+.head1{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 91vh;
+    color: white;
+    background: rgba(00,0,0,0.7);
+}
+video{
+    margin-top: -30px;
+    width: 100%;
+    height: 100vh;
+}
+#head{
+    margin-top: 180px;
+    font-size: 55px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 900;
+
+}
+#house{
+    color: red;
+}
+#para{
+    font-size: 18px;
+    width: 500px;
+    margin-left: 280px;
+    /* bakground-color: red; */
+
+}
+#btn{
+    background: transparent;
+    border-color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 15px;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    top: -300px;
+    left: 430px;
+}
+#btn:hover{
+   background-color: rgb(107, 40, 40);
+
+}
+nav{
+    display: flex;
+    position: relative;
+    top: -90px;
+    padding: 15px 50px;
+    background-color: white;
+    height: 60px;
+    
+}
+.anchor{
+    display: flex;
+    gap: 50px;
+    margin-left: 400px;
+}
+a{
+    color: black;
+    text-decoration: none;
+    
+}
+.head2{
+    margin-top: -40px;
+    text-align: center;
+    background: rgb(213, 212, 212);
+}
+#head2{
+    margin-top: 40px;
+}
+.icons
+{
+    display: flex;
+gap: 10px;
+font-size: 30px;
+margin-left: 150px;
+
+}
+.box1{
+    background: white;
+    width: 227px;
+    text-align: center;
+}
+.box2{
+    background: white;
+    width: 227px;
+    text-align: center;
+
+}
+.box3{
+    background: white;
+    width: 227px;
+    text-align: center;
+
+}
+.fa-cutlery{
+    background: black;
+    color: white;
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   padding: 10px;
+text-align: center;
+
+}
+.fa-coffee{
+    background: black;
+    color: white;
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   padding: 10px;
+text-align: center;
+
+}
+.fa-bell{
+    background: black;
+    color: white;
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   padding: 10px;
+text-align: center;
+}
+.main2{
+    display: flex;
+    width: 760px;
+    margin-left:120px;
+    padding:0 30px;
+    gap: 10px;
+    
+    
+}
+.box11{
+    padding: 30px;
+    background: white;
+
+}
+.box12{
+    padding: 30px;
+    background: white;
+}
+.box13{
+    padding: 30px;
+    background: white;
+}
+#head3{
+   
+}
+
