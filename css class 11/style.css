@@ -1,0 +1,45 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+}
+.box{
+    color: white;
+    background-color: silver;
+    width: 20%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    animation-name: Box-move;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes Box-move {
+
+    0%{
+        top: 0;
+        left: 0;
+    }
+    25%{
+        top: 0;
+        left: 80%;
+    }
+    50%{
+        left: 80%;
+        top: 80vh;
+    }
+    75%{
+        top: 80vh;
+        left: 0;
+    }
+    100%{
+        top: 0;
+        left: 0;
+    }
+    
+} */
